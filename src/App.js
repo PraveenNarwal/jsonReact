@@ -13,6 +13,7 @@ function App() {
         <Route exact path="/" component={Login} />
         <Route strict path="/show-data" component={ShowData} />
       </Router>
+
     </>
   );
 }
