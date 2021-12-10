@@ -59,7 +59,7 @@ const Login = () => {
         </Form.Group>
 
         <Button
-          variant="primary"
+          variant="outline-success"
           className="text-center center"
           type="submit"
           onClick={(e) => loginAdmin(e)}
