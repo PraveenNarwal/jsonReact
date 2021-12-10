@@ -8,7 +8,7 @@ const Logout = () => {
   return (
     <>
       <Button
-        variant="danger"
+        variant="outline-warning"
         onClick={() => (localStorage.removeItem("user"), history.push("/"))}
       >
         Logout
